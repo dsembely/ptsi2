@@ -1,0 +1,53 @@
+/* Feuille de style des couleurs */
+/* 
+
+#2C2302 couleur marron de fond
+#322b16 marron plus clair pour les titres
+
+#F2F2EE fond beige; F4F4F1
+#E3E7D9 beige plus soutenu pour les menus #E1E7DC
+#89B8B6 bleu pour les titres des menus
+
+#4B708D bleu clair pour les liens
+#785CA8 un violet pour les liens visités
+
+
+/* Fond et couleur globaux */
+
+:root {
+  --couleur-fond: #f5f9f8;/*#F5FBF9; #F6FAF5;*/
+  --couleur-menu-1: #CFEAEB;/*#A8DADC;*/
+  --couleur-menu-2: #00A3A8;/*#00AAAF;*/
+  --couleur-texte: #3D4449;
+  --couleur-lien: #A8004F;
+  --couleur-lien-visite: #7B2D52;/*743452;*/
+}
+
+body { color: var(--couleur-texte); background-color: var(--couleur-fond); }
+
+/* Liens décolorés */
+h3 a { color: var(--couleur-texte); } /* 
+
+/* titres */
+h2, h3 {color : var(--couleur-lien); }
+
+/* liens */
+a { color: var(--couleur-lien); }
+a:visited {color : var(--couleur-lien);}
+
+/* Menu */
+#haut { color: var(--couleur-texte); background-color: var(--couleur-menu-2);  }
+
+#menu, #recent { background-color: var(--couleur-menu-1); } 
+
+#menu h3, #recent h3 { background-color: var(--couleur-menu-2);} 
+
+#menu a, #menu p, #recent a { color: var(--couleur-menu-1); }
+
+/* texte menu F2 */
+
+#menu a:hover { color: var(--couleur-menu-2); }
+
+#menu h3 a:hover { color: var(--couleur-lien); }
+
+#recent a:hover { color: var(--couleur-menu-2); }

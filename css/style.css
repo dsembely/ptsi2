@@ -1,0 +1,39 @@
+/* Feuille de style général : tailles et positionnements */
+
+/* Police et taille globales */
+html,body { height: 100%; }
+body { font-size: 100%; font-family: 'Open Sans' , sans-serif; position: relative; margin: 0; min-width: 900px;  background-image:url(courbe6.png); background-repeat:no-repeat; 
+    background-size= 400px 400px;  ; background-position:right top}
+/* background-origin= content-box */
+
+#global { position: relative; min-height: 100%; font-weight: normal }
+
+/* Positionnements principaux */
+/* background-color: #A4C6C0; */
+h3 { font-family: 'Roboto Slab' , serif; font-size: 1.2em; margin: 0.8em 2% 0; padding: 0; }
+#montitre {  font-size: 1.2em;color: #CFEAEB;border-radius: 0.2em; margin: 0 5% 0.5em; padding: 0.2em 5px ; display : inline ; font-family: 'Roboto Slab' , serif; font-weight: 600}
+ul { margin: 0.5em 2%; padding: 0 4% 0 6%; }
+p { margin: 0.5em 2%; padding: 0 4%; }
+div, form { margin: 0; padding: 0; }
+#colonne { width: 210px; float: left; margin: -1em 30px 3em; }
+#menu, #recent { padding: 1em 10px; border-radius: 0.2em;}
+#recent { margin-top: 2em; }
+#contenu { position: relative; margin: 0 30px 4em 190px; padding: 0 20px; }
+#haut {font-size: 1.7em; text-align: center; padding: 1em 0; margin-bottom: 2em }
+
+/* Liens non soulignés */
+.prec, .suiv, h3 a, #menu a, #recent a, #bas a { text-decoration: none; }
+
+/* Dans le menu et dans les informations récentes */
+#menu div+div { margin-top: 0.3em; padding-top: 0.5em; }
+#menu h3, #recent h3 { text-align: center; margin: 0 5% 0.5em; padding: 0.2em 5px; border-radius: 0.2em;}
+#menu h4 { text-align: center; margin: 0; }
+#menu a, #recent a { text-align: center; display: block; margin-bottom: 0.2em; padding: 0; }
+#menu a.ligne { text-align: center; display: inline !important; }
+#menu p.menusupp {text-align: center;  margin: 0 3% 0.3em; font-size: 0.9em; }
+#menu p { text-align: center; padding: 0.1em 0px; }
+#actuel { font-style: italic; }
+#rss { display: inline !important; margin: 0 !important; vertical-align: top; }
+#rss img { height: 1.1em; }
+
+
